@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+      },
+      fontFamily: {
+        openSans: ["var(--font-open-sans)", "Impact"],
       },
     },
   },
