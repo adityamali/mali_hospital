@@ -3,25 +3,25 @@ const services = [
         id: 1,
         title: 'Consultation',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: '/assets/icons/mail.svg',
+        icon: '/assets/icons/consult.svg',
     },
     {
         id: 2,
-        title: 'Diagnosis',
+        title: 'ICU',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/diagnosis.svg',
+        icon: '/assets/icons/icu.svg',
     },
     {
         id: 3,
-        title: 'Treatment',
+        title: 'NICU',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/treatment.svg',
+        icon: '/assets/icons/nicu.svg',
     },
     {
         id: 4,
-        title: 'Payment',
+        title: 'Vaccination',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/payment.svg',
+        icon: '/assets/icons/vaccine.svg',
     },
 ]
 

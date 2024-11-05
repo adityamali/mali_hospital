@@ -37,7 +37,7 @@ export default function Home() {
         <div className='flex flex-col items-center w-[96%] rounded-3xl'>
           <div className='flex items-center w-full bg-primary rounded-3xl text-white md:p-0'>
             <div className='text-xl font-bold py-20 px-4 md:px-[25%] text-center'>
-            Committed to providing exceptional pediatric care in a compassionate environment. Your child&apos;s health and well-being are our top priorities, making us the trusted choice for families in Miraj and beyond.
+            Equipped with advanced medical technology and specialized pediatric services to ensure the highest standard of care for your child.
             </div>
           </div>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 w-full mt-10'>
