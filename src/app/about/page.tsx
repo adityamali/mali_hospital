@@ -11,8 +11,8 @@ function page() {
               <h2 className='impact text-3xl font-bold text-white'>About Us</h2>
             </div>
         </div>
-        <div className='w-[96vw] flex flex-col justify-center items-center'>
-          <div className='w-[70vw]'>
+        <div className='w-[96vw] flex flex-col justify-center items-center p-4'>
+          <div className='md:w-[70vw]'>
             <p
               className='text-lg font-medium'
             >
@@ -20,7 +20,7 @@ function page() {
             </p>
           </div>
         </div>
-        <div className='w-[70vw] grid grid-cols-2 gap-6'>
+        <div className='md:w-[70vw] grid grid-cols-1 md:grid-cols-2 gap-6 p-4'>
           <div className='flex flex-col bg-slate-100 p-6 rounded-xl'>
             <h2 className='impact text-2xl font-bold mb-4'>Mission</h2>
             <p
