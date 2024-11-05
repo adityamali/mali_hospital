@@ -17,16 +17,16 @@ function Navbar() {
                     <span className='text-balance'>Get Directions</span>
             </a>
         </div>
-        <div id='navbar' className='w-full h-[100px] px-8 flex justify-between items-center'>
+        <div id='navbar' className='w-full h-[100px] px-4 md:px-8 flex justify-between items-center'>
             <div className='flex items-center cursor-pointer' onClick={() => {window.location.href = '/'}}>
-                <Image src="/images/medical-snake.png" width={16} height={16} alt="hospital" className='h-[3em] w-[3em]' />
+                <Image src="/images/medical-snake.png" width={64} height={64} alt="hospital" className='h-6 w-6 md:h-[3em] md:w-[3em]' />
                 <div className='flex flex-col ml-2'>
-                    <div className='text-balance text-3xl font-bold text-primary impact'>Dr. Mali</div>
-                    <div className='text-balance font-bold impact'>Children&apos;s Hospital</div>
+                    <div className='text-balance text-xl md:text-3xl font-bold text-primary impact'>Dr. Mali</div>
+                    <div className='text-balance text-xs md:text-base font-semibold impact'>Children&apos;s Hospital</div>
                 </div>
             </div>
             <div className='flex items-center gap-12'>
-                <ul className='flex items-center gap-12'>
+                <ul className='items-center gap-12 hidden md:flex'>
                     <li>
                         <a className='text-balance' href='/'>
                             Home
