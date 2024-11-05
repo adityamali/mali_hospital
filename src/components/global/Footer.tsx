@@ -27,11 +27,11 @@ const Footer: React.FC = () => {
                     </div>
                     <div className="w-full md:w-1/3">
                         <h2 className="text-xl font-bold mb-2">Contact Us</h2>
-                        <p>
-                            <strong>Phone:</strong> (123) 456-7890
+                        <p onClick={() => {window.location.href = 'tel:+02332222224'}} className='cursor-pointer'>
+                            <strong>Phone:</strong> +0233 22222224
                         </p>
-                        <p>
-                            <strong>Email:</strong> info@malihospital.com
+                        <p onClick={() => {window.location.href = 'mailto:drmalichildrenshospitalmiraj@gmail.com'}} className='cursor-pointer'>
+                            <strong>Email:</strong> drmalichildrenshospitalmiraj@gmail.com
                         </p>
                     </div>
                 </div>
