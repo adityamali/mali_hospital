@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                     <div className="w-full md:w-1/3 mb-6 md:mb-0">
                         <h2 className="text-xl font-bold mb-2">Quick Links</h2>
                         <ul>
-                            <li className="mb-2"><a href="/home" className="hover:underline">Home</a></li>
+                            <li className="mb-2"><a href="/" className="hover:underline">Home</a></li>
                             <li className="mb-2"><a href="/services" className="hover:underline">Services</a></li>
                             <li className="mb-2"><a href="/contact" className="hover:underline">Contact</a></li>
                             <li className="mb-2"><a href="/about" className="hover:underline">About</a></li>
