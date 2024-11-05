@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
 
 export function HeroSectionComponent() {

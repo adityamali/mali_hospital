@@ -10,7 +10,7 @@ function page() {
             <div className='relative p-10 flex flex-col justify-center'>
               <h2 className='impact text-3xl font-bold text-primary pb-2'>Get In Touch</h2>
               <p>
-                We'd love to hear from you! Whether you have questions, need support, or want to learn more about our services, our team is here
+                We&apos;d love to hear from you! Whether you have questions, need support, or want to learn more about our services, our team is here
                 to help. Please feel free to reach out to us at any time.
               </p>
             </div>
