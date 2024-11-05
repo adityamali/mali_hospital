@@ -3,7 +3,7 @@ const services = [
         id: 1,
         title: 'Consultation',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/consultation.svg',
+        icon: '/assets/icons/mail.svg',
     },
     {
         id: 2,
@@ -22,30 +22,6 @@ const services = [
         title: 'Payment',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
         icon: 'https://mali-hospital.vercel.app/assets/icons/payment.svg',
-    },
-    {
-        id: 5,
-        title: 'Book Appointment',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/appointment.svg',
-    },
-    {
-        id: 6,
-        title: 'Book Appointment',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.', 
-        icon: 'https://mali-hospital.vercel.app/assets/icons/appointment.svg',
-    },
-    {
-        id: 5,
-        title: 'Book Appointment',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.',
-        icon: 'https://mali-hospital.vercel.app/assets/icons/appointment.svg',
-    },
-    {
-        id: 6,
-        title: 'Book Appointment',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.', 
-        icon: 'https://mali-hospital.vercel.app/assets/icons/appointment.svg',
     },
 ]
 

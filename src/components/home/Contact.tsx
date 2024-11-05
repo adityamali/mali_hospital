@@ -10,7 +10,7 @@ function Contact() {
 
   return (
     <div className='flex flex-col items-center justify-center w-full md:h-[75vh] mb-[10rem]'>
-        <div className='flex flex-col md:grid md:grid-cols-2 gap-4 mt-10 w-[86%] h-full'>
+        <div className='flex flex-col md:grid md:grid-cols-2 gap-4 mt-10 w-[96%] h-full'>
             <div className='flex flex-col justify-between h-full rounded-3xl bg-gray-50 px-6 py-8 border-2 border-gray-100'>
                 <h2 className='text-2xl font-bold impact border-l-4 border-primary pl-3'><strong>Write to Us</strong></h2>
                 <span className='text-sm'>Write to us directly and we will get back to you within 24 hours.</span>

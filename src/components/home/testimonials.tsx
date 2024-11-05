@@ -49,7 +49,7 @@ export default function Testimonials() {
     }, [])
 
     return (
-        <div className="w-full max-w-7xl mx-auto px-4 py-8">
+        <div className="w-[96%] max-w-7xl mx-auto py-8">
             <h2 className="text-xl font-bold mb-8 border-l-4 border-primary pl-4">Testimonials</h2>
             <div className="relative overflow-hidden">
                 <div 

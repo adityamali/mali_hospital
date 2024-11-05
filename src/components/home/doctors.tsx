@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Doctors() {
   return (
     <div className='flex flex-col items-center justify-center w-full'>
-    <div className='flex flex-col items-center justify-center w-[86%] gap-8'>
+    <div className='flex flex-col items-center justify-center w-[96%] gap-8'>
         <div className='flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mt-10'>
           <Image src="/images/vitthalmali.png" alt="Dr Vitthal Mali" height={300} width={392} />
           <div className='md:w-[75%] flex flex-col justify-center'>

@@ -31,20 +31,23 @@ import Contact from '@/components/home/Contact';
 
 export default function Home() {
   return (
-    <div className='flex flex-col gap-40'>
+    <div className='flex flex-col gap-36'>
       <HeroTest />
-      <div className='w-full md:px-2 mt-9 flex flex-col justify-between items-center'>
-        <div className='flex flex-col items-center w-[96%] rounded-3xl md:p-4'>
-          <div className='flex items-center w-full bg-primary rounded-3xl p-4 text-white'>
+      <div className='w-full mt-9 flex flex-col justify-between items-center'>
+        <div className='flex flex-col items-center w-[96%] rounded-3xl'>
+          <div className='flex items-center w-full bg-primary rounded-3xl text-white md:p-0'>
             <div className='text-xl font-bold py-20 px-4 md:px-[25%] text-center'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel laboriosam soluta iure praesentium dolorum numquam perspiciatis delectus eum odit facilis, exercitationem debitis ipsa doloribus.
+            Committed to providing exceptional pediatric care in a compassionate environment. Your child&apos;s health and well-being are our top priorities, making us the trusted choice for families in Miraj and beyond.
             </div>
           </div>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 w-full mt-10'>
             {services.map((service) => (
-              <div key={service.id} className='bg-secondary p-4 rounded-lg flex flex-col items-center gap-2'>
+              <div key={service.id} className='p-4 rounded-lg flex flex-col items-center gap-2'>
                 {/* <span className='icon-placeholder mb-2'>{service.icon}</span> Use different icon for each element */}
-                <Image src={service.icon} width={64} height={64} alt={service.title} />
+                <div className='flex items-center justify-center bg-primary rounded-3xl w-16 h-16 text-white'>
+                  <Image src={service.icon} width={32} height={32} alt={service.title} />
+                </div>
+                {/* <Image src={service.icon} width={64} height={64} alt={service.title} /> */}
                 <span>{service.title}</span>
               </div>
             ))}

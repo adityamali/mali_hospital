@@ -43,9 +43,7 @@ const HeroTest = () => {
         <div className='flex flex-col justify-end'>
           {/* <h2 className='impact text-2xl font-bold mb-4'>Mission</h2> */}
           <p className='text-lg font-medium md:-translate-y-[6em] p-8'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-            Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+          Committed to providing exceptional pediatric care in a compassionate environment. Your child&apos;s health and well-being are our top priorities, making us the trusted choice for families in Miraj and beyond.
           </p>
         </div>
         <div>
