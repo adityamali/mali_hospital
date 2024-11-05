@@ -10,7 +10,7 @@ function Doctors() {
           <div className='w-[75%] flex flex-col justify-center'>
             <h2 className='text-2xl font-bold impact'><strong>Dr. Vitthal D. Mali</strong></h2>
             <span className='text-sm font-bold'>MD. PED, MBBS</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit qui ad harum quia nulla voluptates expedita cum id est, eligendi, dolore amet fugiat atque pariatur.</p>
+            <p>Dr. Vitthal D. Mali is a highly regarded pediatrician in the from Miraj, Maharashtra, known for his compassionate care and expertise in treating children. Dr. Mali continues to provide exceptional medical services, ensuring the well-being of his young patients.</p>
           </div>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 w-full mt-10'>

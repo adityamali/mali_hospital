@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* --primary: #FA2C44;; */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #FA2C44;;
+  --primary: #FA2C44;
 
   --font-open-sans: Open Sans, sans-serif;
 }

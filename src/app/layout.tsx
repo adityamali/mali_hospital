@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 import Navbar from "@/components/global/Navbar";
+import Footer from "@/components/global/Footer";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -44,6 +45,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode; }
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

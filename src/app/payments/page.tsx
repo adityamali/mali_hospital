@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function page() {
   return (
-      <div className='flex flex-col justify-center items-center gap-20'>
+      <div className='flex flex-col justify-center items-center gap-20 mb-28'>
         <div className='mt-40 w-[96vw] bg-gray-100'>
         <h2 className='impact text-2xl font-bold mb-4 border-l-4 pl-2 border-primary m-4'>Pay Online</h2>
         <div className='grid grid-cols-2 p-8'>
@@ -42,6 +42,7 @@ function page() {
                 <label className='text-base font-bold text-gray-700'>Enter Amount: </label>
                 <input className='p-2 rounded-lg w-full' type="text" placeholder="Name" />
               </div>
+              <button className='bg-black text-white rounded-lg p-2 w-full'>Pay</button>
             </form>
           </div>
         </div>

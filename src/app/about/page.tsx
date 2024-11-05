@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function page() {
   return (
-      <div className='flex flex-col justify-center items-center gap-20'>
+      <div className='flex flex-col justify-center items-center gap-20 mb-36'>
         <div className='relative w-full h-44 mt-36'>
             <Image src='/images/hero.jpg' alt='image' width={400} height={400} className='w-full h-44' />
             <div className="absolute inset-0 bg-black opacity-30" />
@@ -16,12 +16,7 @@ function page() {
             <p
               className='text-lg font-medium'
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-              Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis 
-              ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. 
-              Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti 
-              sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              Mali Children&apos;s Hospital, located in Miraj, Maharashtra, is dedicated to providing comprehensive pediatric care for children of all ages. Founded by Dr. Vitthal D. Mali, a seasoned pediatrician, our hospital is equipped with advanced medical facilities and a compassionate team committed to the health and well-being of our young patients. We prioritize a family-centered approach, ensuring that each child receives personalized treatment in a supportive and comfortable environment, making us a trusted choice for families seeking quality healthcare in the Sangli-Miraj-Kupwad region.
             </p>
           </div>
         </div>
@@ -31,9 +26,7 @@ function page() {
             <p
               className='text-lg font-medium'
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-              Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+              To deliver exceptional, patient-centered pediatric care while fostering a compassionate atmosphere and continuously improving our services for the community.
             </p>
           </div>
           <div className='flex flex-col bg-slate-100 p-6 rounded-xl'>
@@ -41,9 +34,7 @@ function page() {
             <p
               className='text-lg font-medium'
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. 
-              Sed nisi.
+              To be the leading pediatric healthcare provider in the Sangli-Miraj-Kupwad region, ensuring every child achieves optimal health in a supportive environment.
             </p>
           </div>
         </div>
