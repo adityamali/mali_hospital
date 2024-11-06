@@ -32,7 +32,7 @@ import Contact from '@/components/home/Contact';
 export default function Home() {
 
   return (
-    <div className='flex flex-col gap-36'>
+    <div className='flex flex-col gap-16'>
       <HeroTest />
       <div className='w-full mt-9 flex flex-col justify-between items-center'>
         <div className='flex flex-col items-center w-[96%] rounded-3xl'>
