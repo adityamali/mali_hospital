@@ -34,6 +34,10 @@ body {
   font-family: Impact;
 }
 
+.arial-black {
+  font-family: "Arial Black";
+}
+
 .black-icon {
   filter: invert(1);
 }

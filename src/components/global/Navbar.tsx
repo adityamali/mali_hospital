@@ -21,8 +21,8 @@ function Navbar() {
             <div className='flex items-center cursor-pointer' onClick={() => {window.location.href = '/'}}>
                 <Image src="/images/medical-snake.png" width={64} height={64} alt="hospital" className='h-6 w-6 md:h-[3em] md:w-[3em]' />
                 <div className='flex flex-col ml-2'>
-                    <div className='text-balance text-xl md:text-3xl font-bold text-primary impact'>Dr. Mali</div>
-                    <div className='text-balance text-xs md:text-base font-semibold impact'>Children&apos;s Hospital</div>
+                    <div className='text-balance text-xl md:text-3xl font-bold text-primary arial-black'>Dr. Mali</div>
+                    <div className='text-balance text-xs md:text-base font-semibold arial-black'>Children&apos;s Hospital</div>
                 </div>
             </div>
             <div className='flex items-center gap-12'>
