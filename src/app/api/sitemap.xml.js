@@ -1,7 +1,6 @@
-import { NextApiRequest, NextApiResponse } from 'next';
 import { create } from 'xmlbuilder';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req, res) {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://malihospital.com';
 
   const staticPages = [
