@@ -10,8 +10,10 @@ interface Page {
 
 const pages: Page[] = [
   { loc: `${baseUrl}/`, priority: 1 },
-  { loc: `${baseUrl}/about`, priority: 0.8 },
-  { loc: `${baseUrl}/contact`, priority: 0.6 }
+  { loc: `${baseUrl}/about`, priority: 0.9 },
+  { loc: `${baseUrl}/services`, priority: 0.8 }, 
+  { loc: `${baseUrl}/contact`, priority: 0.7 },
+  { loc: `${baseUrl}/payment`, priority: 0.6 }
 ];
 
 export function GET() {
