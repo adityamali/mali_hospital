@@ -21,7 +21,8 @@
     "react-dom": "^18",
     "resend": "^4.0.1-alpha.0",
     "tailwind-merge": "^2.5.4",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "@types/node": "^20",
