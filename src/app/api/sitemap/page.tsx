@@ -10,7 +10,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     '/contact',
     '/payments',
     '/services',
-    '/sitemap',
   ];
 
   const urlSet = staticPages.map((path) => ({
