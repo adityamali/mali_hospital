@@ -17,9 +17,11 @@
     "locomotive-scroll": "^4.1.4",
     "lucide-react": "^0.453.0",
     "next": "14.2.15",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
     "resend": "^4.0.1-alpha.0",
+    "sitemap": "^8.0.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "xmlbuilder": "^15.1.1"
