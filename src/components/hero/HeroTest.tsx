@@ -4,17 +4,15 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const HeroTest = () => {
   const mainImages = [
-    { src: '/images/hero.jpg', description: 'Get Your Child, The Best Treatment Possible' },
+    { src: '/images/hero.webp', description: 'Get Your Child, The Best Treatment Possible' },
   ];
     
       const secondaryImages = [
-        '/images/icu.png',
-        '/placeholder.svg?height=400&width=400',
-        '/placeholder.svg?height=400&width=400',
+        '/images/icu.webp',
       ]
   return (
-    <div className="relative mt-[9.5rem] flex flex-col items-center justify-center md:mb-80">
-      <div className="h-full w-[96vw] mx-8 bg-primary rounded-3xl overflow-hidden">
+    <div className="relative mt-[9.5rem] flex flex-col items-center justify-center md:mb-96">
+      <div className="h-full md:h-[calc(100vh-10rem)] w-[96vw] mx-8 bg-primary rounded-3xl overflow-hidden">
         <Carousel>
           <CarouselContent>
             {mainImages.map((image, index) => (
@@ -39,7 +37,7 @@ const HeroTest = () => {
           <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2" />
         </Carousel>
       </div>
-      <div className='relative md:absolute md:-bottom-[40vh] w-[96vw] flex flex-col md:grid md:grid-cols-2'>
+      <div className='relative md:absolute md:top-[50vh] w-[96vw] flex flex-col md:grid md:grid-cols-2'>
         <div className='flex flex-col justify-end'>
           {/* <h2 className='impact text-2xl font-bold mb-4'>Mission</h2> */}
           <p className='text-lg font-medium md:-translate-y-[6em] p-8'>

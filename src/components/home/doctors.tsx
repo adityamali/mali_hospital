@@ -6,7 +6,7 @@ function Doctors() {
     <div className='flex flex-col items-center justify-center w-full'>
     <div className='flex flex-col items-center justify-center w-[96%] gap-8'>
         <div className='flex flex-col sm:grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mt-10'>
-          <Image src="/images/doctors/vitthalmali.jpeg" alt="Dr Vitthal Mali" height={300} width={392} className='rounded-3xl aspect-square h-96' />
+          <Image src="/images/doctors/vitthalmali.webp" alt="Dr Vitthal Mali" height={300} width={392} className='rounded-3xl aspect-square h-96' />
           <div className='md:w-[75%] flex flex-col justify-center'>
             <h2 className='text-2xl font-bold impact'><strong>Dr. Vitthal D. Mali</strong></h2>
             <span className='text-sm font-bold'>MD. PED, MBBS</span>
@@ -20,7 +20,7 @@ function Doctors() {
             <p className='text-right'>Director of Mali Children&apos;s Hospital</p>
           </div>
           <div className='flex justify-end items-center'>
-            <Image src="/images/doctors/swatimali.jpeg" alt="Dr Swati Mali" height={300} width={392} className='rounded-3xl aspect-square h-96'/>
+            <Image src="/images/doctors/swatimali.webp" alt="Dr Swati Mali" height={300} width={392} className='rounded-3xl aspect-square h-96'/>
           </div>
         </div>
     </div>

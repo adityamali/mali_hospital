@@ -9,6 +9,11 @@ import Footer from "@/components/global/Footer";
 export const metadata: Metadata = {
   title: "Dr. Mali Children's Hospital | Best Pediatric Hospital in Miraj",
   description: "Providing top-quality healthcare for children in Sangli District. Our experienced pediatric specialists ensure the best treatment and care for your child.",
+  // favicon
+  icons: {
+    icon: "/public/assets/meta/favicon.ico",
+    shortcut: "/public/assets/meta/favicon.ico",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

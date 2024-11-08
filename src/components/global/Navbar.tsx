@@ -3,8 +3,10 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Button from './Button'
+import { useState } from 'react';
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className='absolute z-50 bg-white'>
         <div id='topbar' className='w-[100vw] h-12 bg-primary text-white flex justify-between items-center px-8 text-base'>
@@ -54,6 +56,32 @@ function Navbar() {
                     </li>
                 </ul>
                 <Button text='Book Appointment' onClick={() => {window.location.href = 'https://docon.co.in/patientmweb/doctors/vitthalmali'}} />
+                <div className='md:hidden'>
+                    <button onClick={() => setMenuOpen(!menuOpen)} className='focus:outline-none'>
+                        <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d={menuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'} />
+                        </svg>
+                    </button>
+                    {menuOpen && (
+                        <ul className='fixed left-0 top-0 h-screen w-screen flex flex-col justify-center items-center bg-white font-semibold text-lg text-primary shadow-md rounded-md py-2'>
+                            <div className='absolute top-4 flex justify-between items-center px-4 py-4 w-screen'>
+                                <a href='/'>
+                                    <Image src="/images/medical-snake.png" width={64} height={64} alt="hospital" className='h-6 w-6 md:h-[3em] md:w-[3em]' />
+                                </a>
+                                <button onClick={() => setMenuOpen(false)} className='focus:outline-none'>
+                                    <svg className='w-7 h-7' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M6 18L18 6M6 6l12 12' />
+                                    </svg>
+                                </button>
+                            </div>
+                            <li className='px-4 py-4'><a href='/'>Home</a></li>
+                            <li className='px-4 py-4'><a href='/about'>About Us</a></li>
+                            <li className='px-4 py-4'><a href='/services'>Services</a></li>
+                            <li className='px-4 py-4'><a href='/contact'>Contact Us</a></li>
+                            <li className='px-4 py-4'><a href='/payments'>Pay Online</a></li>
+                        </ul>
+                    )}
+                </div>
             </div>
         </div>
     </div>
