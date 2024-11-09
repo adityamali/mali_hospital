@@ -9,6 +9,7 @@ import Footer from "@/components/global/Footer";
 export const metadata: Metadata = {
   title: "Dr. Mali Children's Hospital | Best Pediatric Hospital in Miraj",
   description: "Providing top-quality healthcare for children in Sangli District. Our experienced pediatric specialists ensure the best treatment and care for your child.",
+  keywords: "children's hospital miraj, children's hospital sangli, pediatric hospital sangli, pediatric hospital miraj, Mali hospital, 24x7 pediatric care, NICU miraj, neonatal care sangli, ICU for children miraj, best child specialists sangli, best child specialists miraj, emergency pediatric care miraj, children's hospital maharashtra, pediatric treatments miraj, child healthcare sangli district",
   // favicon
   icons: {
     icon: "/public/assets/meta/favicon.ico",
