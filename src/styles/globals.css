@@ -12,14 +12,6 @@
   --font-open-sans: Open Sans, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primary: #FA2C44;
-  }
-}
-
 .transition-time{
   transition: all 0.3s ease-in-out;
 }
