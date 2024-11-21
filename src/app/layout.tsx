@@ -4,8 +4,6 @@ import "@/styles/globals.css";
 
 import Navbar from "@/components/global/Navbar";
 import Footer from "@/components/global/Footer";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
 import Script from "next/script";
 
 
