@@ -4,6 +4,9 @@ import "@/styles/globals.css";
 
 import Navbar from "@/components/global/Navbar";
 import Footer from "@/components/global/Footer";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+import Script from "next/script";
 
 
 export const metadata: Metadata = {
@@ -48,8 +51,29 @@ export const metadata: Metadata = {
 
 
 export default function RootLayout({ children, }: { children: React.ReactNode; }) {
+
+  const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
+
   return (
     <html lang="en">
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <body
         className="antialiased font-openSans"
       >
