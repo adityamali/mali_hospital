@@ -53,6 +53,13 @@ const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     name: "Dr. Mali Children's Hospital",
+    aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.8",
+        reviewCount: testimonials.length.toString(),
+        bestRating: "5",
+        worstRating: "1",
+    },
     review: testimonials.map((t) => ({
         "@type": "Review",
         author: { "@type": "Person", name: t.name },
